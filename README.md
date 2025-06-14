@@ -1,6 +1,6 @@
 # 🍋 Little Lemon Frontend Web Application
 
-This is the frontend for **Little Lemon**, a fictional Mediterranean restaurant. Developed as part of the **Meta Front-End Developer Capstone Project**, this React-based application allows customers to make table reservations and explore the restaurant experience online.
+This is the frontend for **Little Lemon**, a fictional restaurant. Developed as part of the **Meta Front-End Developer Capstone Project**, this React-based application allows customers to make table reservations and explore the restaurant experience online.
 
 ---
 
@@ -13,7 +13,6 @@ The core of this application is a **table reservation form** with a smooth, resp
 ## 🧰 Tech Stack
 
 - **JavaScript**
-- **React**
 - **CSS**
 - **HTML**
 
@@ -81,16 +80,6 @@ The table booking form (under `Reservations/`) includes:
 - Submission via Axios to the `/restaurant/api/book/` backend endpoint
 - Conditional UI messages for success/failure
 - Uses shared state through `DataContext.js`
-
----
-
-## 💪 Testing
-
-React testing setup via `setupTests.js`. Unit and component tests can be written in `App.test.js` or extended to component-level files using:
-
-```bash
-npm test
-```
 
 ---
 
